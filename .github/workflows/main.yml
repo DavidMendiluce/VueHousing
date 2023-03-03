@@ -8,6 +8,10 @@ jobs:
         uses: actions/checkout@v3.3.0
       - name: Cypress.io
         uses: cypress-io/github-action@v5.1.0
+        env: 
+          VUE_APP_API_PATH: ${{ secrets.API_PATH }}
+          VUE_APP_IMG_API: ${{ secrets.IMG_API }}
+          VUE_APP_AUTH: ${{ secrets.AUTH }}
         with:
-          start: npx cypress open
+          start: npm run serve
       
