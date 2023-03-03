@@ -1,7 +1,7 @@
 import axios from "axios";
-import apiPath from '/src/assets/apiPath.txt';
-import auth from '/src/assets/auth.txt';
-import imageApi from '/src/assets/imageApi.txt';
+const apiPath = process.env.VUE_APP_API_PATH;
+const auth = process.env.VUE_APP_AUTH;
+const imageApi = process.env.VUE_APP_IMG_API;
 
 const state = {
   houses: [],
