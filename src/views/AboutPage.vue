@@ -3,18 +3,18 @@
     <div class="about-sub-container">
       <h1>About Vue Houses Real State</h1>
       <p>This web application follows the user story requirements using 'SOLID' and 'DRY' principles
-          in order to make the code easy to understand, reusable and the use of methods have single responsability
-          which helps with the scalability of the application
+      in order to make the code easy to understand, reusable and the use of methods have single responsability
+      which helps with the scalability of the application
       </p>
       <h1>About Me</h1>
       <p>I am a software developer with 4 years of experience working with clients as a Freelancer mainly in
-          AngularJS and Javascript applications and right now I am looking for a switch in my career and I am 
-          looking to work in a company where I can grow as a developer.
+      AngularJS and Javascript applications.
       </p>
       <p>My experience working with Javascript frameworks like AngularJS made it easier to learn other frameworks
-          such as ReactJS and VueJS, and also the state management frameworks they had, REDUX and VUEX respectively 
-          which are great to apply changes through the different components of the application at the same time.
+      such as React and Vue, and also the state management frameworks they had, REDUX and VUEX respectively.
       </p>
+      <p>I have great communication skills in english and I always update other team members, ask questions and have
+      a proactive atittude when I work in a team.</p>
       <h1>Design and Development</h1>
       <div class="about-footer">
         <div class="about-logo">
