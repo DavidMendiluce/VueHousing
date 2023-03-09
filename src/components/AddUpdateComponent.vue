@@ -99,33 +99,33 @@
 
   export default {
     name: "AddUpdateComponent",
-      data() {
-        return {
-          editPath: false,
-          streetName: '',
-          houseNumber: '',
-          numberAddition: '',
-          zip: '',
-          city: '',
-          price: '',
-          size: '',
-          garage: '',
-          bedrooms: '',
-          bathrooms: '',
-          constructionYear: '',
-          description: '',
-          formTitle: '',
-          isError: false,
-          errorMessage: 'Required Field Missing',
-          isSubmitting: false,
-          imageFile: '',
-          imagePreview: require(`@/assets/ic_upload@3x.png`),
-          fileLoaded: false,
-          noImage: true,
-          formBtnText: 'POST',
-          selectOpacity: 0.5
-        }
-      },
+    data() {
+      return {
+        editPath: false,
+        streetName: '',
+        houseNumber: '',
+        numberAddition: '',
+        zip: '',
+        city: '',
+        price: '',
+        size: '',
+        garage: '',
+        bedrooms: '',
+        bathrooms: '',
+        constructionYear: '',
+        description: '',
+        formTitle: '',
+        isError: false,
+        errorMessage: 'Required Field Missing',
+        isSubmitting: false,
+        imageFile: '',
+        imagePreview: require(`@/assets/ic_upload@3x.png`),
+        fileLoaded: false,
+        noImage: true,
+        formBtnText: 'POST',
+        selectOpacity: 0.5
+      }
+    },
     methods: {
       ...mapActions(['addUpdateHouse', 'fetchHouse']),
       onSubmit(e) {
@@ -257,6 +257,7 @@
   form {
     margin-top: 2rem;
   }
+  
   .image-upload>input {
     display: none;
   }
@@ -264,9 +265,11 @@
   .error-message p {
     color: red;
   }
+  
   .inactive {
     opacity: 0.2;
   }
+  
   .active {
     opacity: 0.9;
   }
@@ -356,6 +359,7 @@
     height: 150px;
     border-radius: 8px;
   }
+  
   .closing-icon {
     position: absolute;
     width: 30px;
