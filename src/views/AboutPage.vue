@@ -30,14 +30,14 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+  import { mapGetters } from 'vuex';
 
-export default {
+  export default {
     name: 'AboutPage',
     computed: {
         ...mapGetters(['getIsMobile'])
     }
-}
+  }
 </script>
 
 <style scoped>
