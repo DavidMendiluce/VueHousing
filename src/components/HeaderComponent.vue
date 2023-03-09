@@ -3,7 +3,6 @@
     <nav class="desktopNav">
       <ul>
         <li><router-link id="logo-link" to="/"><img src="@/assets/logo.png"/></router-link></li>
-        <!-- houses link is active in all route paths that are not '/about' or 'myListings' -->
         <li><router-link data-cy="house-link" @click="showAllHouses" :class="[currentRoute !== '/about' &&  currentRoute !== '/myListings' ? 'router-link-active' : '']" to="/">Houses</router-link></li>
         <li><router-link data-cy="about-link" to="/about">About</router-link></li>
       </ul>
