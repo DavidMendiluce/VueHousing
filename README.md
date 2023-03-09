@@ -1,5 +1,7 @@
 # VueHousing
 Vue application that features CRUD operations by connecting to an API
+## Application URL
+https://vuehouses.space
 ## Project setup
 ```
 npm install
