@@ -1,6 +1,4 @@
 <template>
-  <!-- depending if its a mobile device and if its inside the 
-  'add/update' form page it will show a different styling-->
   <div class="back" id="go-back-container">
     <router-link to="/">
       <img class="arrow-img"/>
