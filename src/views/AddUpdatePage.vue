@@ -11,11 +11,9 @@
 
 <script>
   import {mapGetters} from 'vuex';
-
   import GoBackComponent from '@/components/GoBackComponent';
   import AddUpdateComponent from '@/components/AddUpdateComponent';
-
-
+  
   export default {
     name: "AddUpdatePage",
     computed: {
